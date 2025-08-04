@@ -1,0 +1,100 @@
+Visionary Architects – Developer’s Guide
+
+1. Introduction
+
+This guide provides technical documentation for developers working on the Visionary Architecture website. It explains the project structure, technologies used, how to set up the development environment, and how to contribute effectively.
+
+2. Tech Stack Overview
+
+Layer		Technology
+Frontend	React.js, React Router, Vite
+Styling		Tailwind CSS
+Version Control	Git + GitHub
+
+3. Project Setup
+
+3.1 Prerequisites
+Node.js (v16 or higher)
+
+npm
+
+Git
+
+Code editor (VS Code recommended)
+
+3.2 Installation Steps
+
+⦁	git clone https://github.com/your-username/visionary-architecture.git
+⦁	cd visionary-architecture
+⦁	npm install
+⦁	npm run dev
+⦁
+4. Project Structure
+/src
+  /assets        → Images, logos
+  /components    → Reusable UI components
+  /pages         → Main pages (Home, Projects, About, Contact)
+  /data          → Static data or API mock files
+  /services      → Axios API services
+  /styles        → Tailwind or custom CSS
+  /utils         → Helper functions
+  App.jsx        → Main component with router
+  main.jsx       → Entry point
+
+5. Routing
+
+Uses React Router DOM v6:
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+<BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/projects" element={<Projects />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
+</BrowserRouter>
+
+6. State Management
+
+Local state with useState or useReducer
+
+Optional: Use Context API or Redux for larger state management needs
+
+7. Styling
+
+Tailwind CSS utility classes are used for layout and design.
+
+Global styles (if any) are in /styles/global.css.
+
+8. Forms & Validation
+
+Contact forms use controlled components.
+
+Validation can be done with yup + formik or manually using regex and conditions.
+
+
+9. Coding Standards
+
+Use consistent code formatting (Prettier recommended)
+
+Follow naming conventions:
+
+Components: PascalCase
+
+Files: kebab-case or camelCase
+
+Keep components small and reusable
+
+Avoid duplication – use shared components
+
+10. Troubleshooting
+
+API errors	Inspect console logs and network tab
+Styling issues	Use dev tools to inspect layout problems
+
+
+11. Contacts
+
+Project Lead: contact@visionaryarchitects.com
+

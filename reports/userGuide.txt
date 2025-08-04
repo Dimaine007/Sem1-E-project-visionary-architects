@@ -1,0 +1,82 @@
+Visionary Architecture Website – User Guide
+1. Introduction
+Welcome to the Visionary Architecture website. This guide will help you understand how to navigate the platform, interact with architectural content, submit inquiries, and access services available through the website.
+
+2. Website Overview
+The platform was built with React.js and is designed to be fast, responsive, and user-friendly. Key areas include:
+
+Home Page
+
+Projects Gallery
+
+About Us
+
+Contact Page
+
+Client Dashboard (if logged in)
+
+3. Navigating the Site
+3.1 Home Page
+The home page introduces the firm, showcases featured projects, and provides quick links to other sections. Scroll down to learn about the firm's vision, specialties, and latest announcements.
+
+3.2 Projects Gallery
+Browse through a dynamic portfolio of past and current architectural designs. Click on any project to see more details, including:
+
+Project description
+
+Blueprints/images
+
+Status updates
+
+Client testimonials (if available)
+
+3.3 About Us
+Learn about the firm's history, team members, values, and mission. This section builds trust and provides a background for prospective clients.
+
+3.4 Contact Page
+Use the contact form to send inquiries or request consultations. You can also find:
+
+Email address
+
+Phone number
+
+Office location (with Google Maps integration)
+
+4. For Registered Clients
+4.1 Logging In
+Click the “Login” button in the top-right corner. Enter your credentials. If you don’t have an account, click “Register”.
+
+4.2 Dashboard Features
+Once logged in, you can:
+
+View submitted projects
+
+Upload documents (plans, revisions, notes)
+
+Track progress updates
+
+Communicate with the design team
+
+5. Mobile Responsiveness
+The website is optimized for mobile and tablet use. All features, including forms, image galleries, and navigation, adapt to smaller screens.
+
+6. Troubleshooting
+Issue	Solution
+Images not loading	Refresh the page or check internet connection
+Cannot submit contact form	Ensure all required fields are filled
+Login error	Verify credentials or reset password
+
+7. Frequently Asked Questions (FAQ)
+Q: Can I book a consultation online?
+A: Yes, go to the Contact page and fill out the request form.
+
+Q: How do I get updates on my project?
+A: Log in to your client dashboard to view updates posted by your assigned architect.
+
+Q: What file types can I upload?
+A: Supported types include PDF, JPG, PNG, and DOCX.
+
+8. Contact & Support
+If you experience issues, contact support via email:
+📧 contact@visionaryarchitects.com
+Or call: 📞 +234-800-ARCH-123
